@@ -1,0 +1,27 @@
+h2,h3,p{
+    margin: 0;
+}
+.p1{
+    color: grey;
+}
+p {
+    color: black;
+}
+hr.major {
+    margin: 1rem;
+}
+
+.experience {
+    display: flex;
+    gap: 20px;
+}
+
+.experience .content {
+    max-width: 900px;
+}
+
+
+.expImg img {
+    width: 80px;
+    cursor: pointer;
+}
