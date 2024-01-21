@@ -37,3 +37,10 @@ header.major-2 h2 {
 .content a h3:hover {
     color: gray !important;
 }
+
+@media screen and (max-width: 480px) {
+    .content header {
+        background: yellowgreen;
+        margin-top: 40px;
+    }
+}
