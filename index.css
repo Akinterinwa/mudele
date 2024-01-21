@@ -1,11 +1,7 @@
-/* .image img {
-    height: 380px !important;
-    width: 280px !important;
-} */
-
 header .pronouce {
     display: flex;
     gap: 10px;
+    animation-delay: 0.5s;
 }
 
 header .pronouce i#playIcon {
@@ -38,7 +34,19 @@ header.major-2 h2 {
     color: gray !important;
 }
 
-@media screen and (min-width: 450px) {
+.animation {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 450px) {
     .content header {
 
     }
