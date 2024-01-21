@@ -2,3 +2,38 @@
     height: 380px !important;
     width: 280px !important;
 }
+
+header .pronouce {
+    display: flex;
+    gap: 10px;
+}
+
+header .pronouce i#playIcon {
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 13px;
+    font-size: 20px;
+}
+
+section header.major h2{
+    border-bottom: solid 3px #090909 !important;
+    color: #090909 !important;
+}
+
+header.major-2 h2 {
+    color: aliceblue;
+}
+
+.actions .button.big:hover {
+    background: black;
+    color: white !important;
+}
+.content a h3 {
+    margin-bottom: 0;
+}
+
+.content a h3:hover {
+    color: gray !important;
+}
