@@ -1,7 +1,7 @@
-.image img {
+/* .image img {
     height: 380px !important;
     width: 280px !important;
-}
+} */
 
 header .pronouce {
     display: flex;
@@ -38,9 +38,14 @@ header.major-2 h2 {
     color: gray !important;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 395px) {
     .content header {
-        background: yellowgreen;
-        margin-top: 40px;
+        /* background: yellowgreen; */
+        /* margin-top: 40px; */
+    }
+
+    .image img {
+        height: 380px !important;
+        width: 280px !important;
     }
 }
