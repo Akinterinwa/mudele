@@ -12,3 +12,11 @@ document.getElementById('playIcon').addEventListener('click', function() {
         audio.pause();
     }
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Get the hero section element
+    const heroSection = document.getElementsByClassName('animation');
+  
+    // Add the 'intro' class to trigger the animation
+    heroSection.classList.add('intro');
+  });

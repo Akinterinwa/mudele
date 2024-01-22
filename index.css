@@ -27,22 +27,41 @@ header.major-2 h2 {
     color: white !important;
 }
 
-.content a h3 {
+.content h3.animation a {
+	text-decoration: underline;
+}
+
+.content a h3, .content h3 {
     margin-bottom: 0;
 }
 
-.content a h3:hover {
+.content a h3:hover, .content .links:hover {
     color: gray !important;
 }
 
-.animation {
+.content p.slant {
+    font-family: cursive;
+}
+
+section .features {
+    display: table-row-group;
+}
+
+#menu ul li a:hover {
+    color: gray !important;
+}
+/* .animation {
     opacity: 0;
     transform: translateY(-20px);
     animation: fadeInUp 1s ease-out forwards;
     will-change: transform, opacity;
-}
+} */
+/* .animation.intro {
+    opacity: 1;
+    transform: translateY(0);
+  } */
 
-@keyframes fadeInUp {
+/* @keyframes fadeInUp {
     0% {
         opacity: 0;
         transform: translateY(-20px);
@@ -52,11 +71,9 @@ header.major-2 h2 {
         opacity: 1;
         transform: translateY(0);
     }
-}
+} */
 
 @media (min-width: 450px) {
-    .content header {}
-
     .image img {
         height: 380px !important;
         width: 280px !important;

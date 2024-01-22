@@ -1,0 +1,20 @@
+section h3 {
+    margin: 0;
+}
+
+section p {
+    margin: 0;
+}
+
+section h3 {
+    margin-top: 10px;
+}
+
+.youtube {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+#menu ul li a:hover {
+    color: gray !important;
+}

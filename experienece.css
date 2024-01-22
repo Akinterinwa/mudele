@@ -33,3 +33,6 @@ header.major-2 h2 {
 section p {
     color: #7f888f;
 }
+#menu ul li a:hover {
+    color: gray !important;
+}
